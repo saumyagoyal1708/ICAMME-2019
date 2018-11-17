@@ -177,6 +177,7 @@
 <main id="main" role="main" class="clearfix " style="padding: 150px">
 <div class="fusion-row" style="">
 <section id="content" style="width: 100%;">
+
 <div class="post-content">
 <div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1" style='margin-top:0px;margin-bottom:0px;'>
 <div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
@@ -184,9 +185,9 @@
 </div>
 </div></div></div>
 </div>
-
-</section>
 </div>
+</section>
+
 </main>
 
 
@@ -305,32 +306,5 @@
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 
 <a class="fusion-one-page-text-link fusion-page-load-link"></a>
-<script>
-		jQuery(function($){
-						var start = $('.date-start input').first();
-						var end = $('.date-end input').first();
-
-						start.on('change', function() {
-										var start_date = $(this).datepicker('getDate');
-										start_date.setDate(start_date.getDate() + 3);
-										end.datepicker('option', 'minDate', start_date);
-						});
-		});
-		</script>
-<script type="text/javascript">
-				jQuery( document ).ready( function() {
-					var ajaxurl = 'http://event.kiit.ac.in/icamme2019/wp-admin/admin-ajax.php';
-					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
-						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
-							jQuery( '.fusion-login-nonce' ).html( response );
-						});
-					}
-				});
-				</script>
-<!--[if IE 9]>
-<script type='text/javascript' src='http://event.kiit.ac.in/icamme2019/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-ie9.js?ver=1'></script>
-<![endif]-->
-<!--<script type='text/javascript' src='http://event.kiit.ac.in/icamme2019/wp-content/uploads/fusion-scripts/aa3c70b677c90f59a6341a076bcbc534.min.js'></script>-->
-<!--<script type='text/javascript' src='http://event.kiit.ac.in/icamme2019/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>-->
 </body>
 </html>
